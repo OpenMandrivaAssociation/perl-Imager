@@ -18,6 +18,7 @@ BuildRequires:  libtiff-devel
 BuildRequires:  fontconfig-devel
 BuildRequires:  t1lib-devel
 BuildRequires:  ungif-devel
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 Imager is a module for creating and altering images. It can read and write
