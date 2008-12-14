@@ -1,7 +1,7 @@
 %define module	Imager
 %define name	perl-%{module}
-%define version	0.65
-%define	release	%mkrel 2
+%define version	0.67
+%define	release	%mkrel 1
 
 Name:		%{name}
 Version:	%{version}
