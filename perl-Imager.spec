@@ -1,15 +1,15 @@
 %define upstream_name	 Imager
-%define upstream_version 0.67
+%define upstream_version 0.68
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 3
+Release:    %mkrel 1
 
 Summary:	Perl extension for generating 24 bit images
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Imager/%{upstream_name}-%{upstream_version}.tar.bz2
+Source0:	http://www.cpan.org/modules/by-module/Imager/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:  fontconfig-devel
 BuildRequires:  libjpeg-devel
