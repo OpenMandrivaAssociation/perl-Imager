@@ -1,9 +1,9 @@
 %define upstream_name	 Imager
-%define upstream_version 0.81
+%define upstream_version 0.82
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:	Perl extension for generating 24 bit images
 License:	GPL+ or Artistic
