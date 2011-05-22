@@ -1,5 +1,5 @@
 %define upstream_name	 Imager
-%define upstream_version 0.82
+%define upstream_version 0.83
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
