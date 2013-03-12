@@ -12,13 +12,12 @@ Url:		http://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Imager/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:  fontconfig-devel
-BuildRequires:  libjpeg-devel
+BuildRequires:  jpeg-devel
 BuildRequires:  libpng-devel
 BuildRequires:  libtiff-devel
 BuildRequires:	perl-devel
 BuildRequires:  t1lib-devel
 BuildRequires:  ungif-devel
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
 
 %description
 Imager is a module for creating and altering images. It can read and write
