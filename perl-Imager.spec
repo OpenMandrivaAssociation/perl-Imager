@@ -1,15 +1,15 @@
 %define upstream_name	 Imager
-%define upstream_version 0.84
+%define upstream_version 0.97
 
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version %{upstream_version}
-Release:	2
+Version:    %perl_convert_version 0.97
+Release:	1
 
 Summary:	Perl extension for generating 24 bit images
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Imager/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Imager/Imager-0.97.tar.gz
 
 BuildRequires:  fontconfig-devel
 BuildRequires:  jpeg-devel
@@ -18,6 +18,7 @@ BuildRequires:  libtiff-devel
 BuildRequires:	perl-devel
 BuildRequires:  t1lib-devel
 BuildRequires:  ungif-devel
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
 
 %description
 Imager is a module for creating and altering images. It can read and write
@@ -211,4 +212,5 @@ rm -rf %{buildroot}
 
 * Sat Jun 25 2005 Rafael Garcia-Suarez <rgarciasuarez@mandriva.com> 0.45-1mdk
 - First Mandriva release
+
 
