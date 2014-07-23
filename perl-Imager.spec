@@ -1,5 +1,5 @@
 %define upstream_name	 Imager
-%define upstream_version 0.98
+%define upstream_version 0.99
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -47,6 +47,3 @@ IM_SUPPRESS_PROMPT=1 %{__perl} Makefile.PL INSTALLDIRS=vendor
 %{perl_vendorarch}/Imager
 %{perl_vendorarch}/auto/Imager
 %{_mandir}/*/*
-
-
-
