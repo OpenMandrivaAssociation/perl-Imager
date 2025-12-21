@@ -13,6 +13,7 @@ Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/%{upstream_name}/%{upstream_name}-%{upstream_version}.tar.gz
 Source100: %{name}.rpmlintrc
 
+BuildRequires:	make
 BuildRequires:  fontconfig-devel
 BuildRequires:  jpeg-devel
 BuildRequires:  libpng-devel
