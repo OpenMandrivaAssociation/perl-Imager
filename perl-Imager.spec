@@ -1,16 +1,16 @@
 %define upstream_name	 Imager
-%define upstream_version 0.98
+%define upstream_version 1.033
 
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version %{upstream_version}
-Release:	3
+Version:    %{upstream_version}
+Release:	1
 
 Summary:	Perl extension for generating 24 bit images
 
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/%{upstream_name}/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/tonycoz/imager
+Source0:	https://cpan.metacpan.org/authors/id/T/TO/TONYC/Imager-%{upstream_version}.tar.gz
 Source100: %{name}.rpmlintrc
 
 BuildRequires:	make
