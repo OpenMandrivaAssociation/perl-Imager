@@ -1,16 +1,14 @@
 %define upstream_name	 Imager
-%define upstream_version 1.033
-
 Name:       perl-%{upstream_name}
-Version:    %{upstream_version}
-Release:	1
+Version:    1.033
+Release:	2
 
 Summary:	Perl extension for generating 24 bit images
 
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/tonycoz/imager
-Source0:	https://cpan.metacpan.org/authors/id/T/TO/TONYC/Imager-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/T/TO/TONYC/Imager-%{version}.tar.gz
 Source100: %{name}.rpmlintrc
 
 BuildRequires:	make
@@ -28,7 +26,7 @@ various image formats, draw primitive shapes like lines,and polygons, blend
 multiple images together in various ways, scale, crop, render text and more.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 IM_SUPPRESS_PROMPT=1 %{__perl} Makefile.PL INSTALLDIRS=vendor
